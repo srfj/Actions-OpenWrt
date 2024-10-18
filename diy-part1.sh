@@ -10,6 +10,8 @@
 # See /LICENSE for more information.
 #
 
+cd lede
+sudo apt install libpcre2-dev
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
